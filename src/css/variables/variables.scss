@@ -1,0 +1,144 @@
+$spartan: 'Spartan', sans-serif;
+$antonio: 'Antonio', sans-serif;
+
+.mercury-dot {
+    background: #DEF4FC;
+}
+
+.venus-dot {
+    background: #F7CC7F;
+}
+
+.earth-dot {
+    background: #545BFE;
+}
+
+.mars-dot {
+    background: #FF6A45;
+}
+
+.jupiter-dot {
+    background: #ECAD7A;
+}
+
+.saturn-dot {
+    background: #FCCB6B;
+}
+
+.uranus-dot {
+    background: #65F0D5;
+}
+
+.neptune-dot {
+    background: #497EFA;
+}
+
+.mercury-select-bg {
+    background: #419EBB!important;
+}
+
+.venus-select-bg {
+    background: #EDA249!important;
+}
+
+.earth-select-bg {
+    background: #6D2ED5!important;
+}
+
+.mars-select-bg {
+    background: #D14C32!important;
+}
+
+.jupiter-select-bg {
+    background: #D83A34!important;
+}
+
+.saturn-select-bg {
+    background: #CD5120!important;
+}
+
+.uranus-select-bg {
+    background: #1EC1A2!important;
+}
+
+.neptune-select-bg {
+    background: #2D68F0!important;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3), (max-device-width : 667px), (max-width: 767px) {
+    .mercury-select-bg {
+        background: none!important;
+        border-bottom: 4px solid #419EBB!important;
+    }
+    
+    .venus-select-bg {
+        background: none!important;
+        border-bottom: 4px solid #EDA249!important;
+    }
+    
+    .earth-select-bg {
+        background: none!important;
+        border-bottom: 4px solid #6D2ED5!important;
+    }
+    
+    .mars-select-bg {
+        background: none!important;
+        border-bottom: 4px solid #D14C32!important;
+    }
+    
+    .jupiter-select-bg {
+        background: none!important;
+        border-bottom: 4px solid #D83A34!important;
+    }
+    
+    .saturn-select-bg {
+        background: none!important;
+        border-bottom: 4px solid #CD5120!important;
+    }
+    
+    .uranus-select-bg {
+        background: none!important;
+        border-bottom: 4px solid #1EC1A2!important;
+    }
+    
+    .neptune-select-bg {
+        background: none!important;
+        border-bottom: 4px solid #2D68F0!important;
+    }
+}
+
+
+.mercury-border-top {
+    border-top: 4px solid#419EBB!important;
+}
+
+.venus-border-top {
+    border-top: 4px solid#EDA249!important;
+}
+
+.earth-border-top {
+    border-top: 4px solid#6D2ED5!important;
+}
+
+.mars-border-top {
+    border-top: 4px solid#D14C32!important;
+}
+
+.jupiter-border-top {
+    border-top: 4px solid#D83A34!important;
+}
+
+.saturn-border-top {
+    border-top: 4px solid#CD5120!important;
+}
+
+.uranus-border-top {
+    border-top: 4px solid#1EC1A2!important;
+}
+
+.neptune-border-top {
+    border-top: 4px solid#2D68F0!important;
+}

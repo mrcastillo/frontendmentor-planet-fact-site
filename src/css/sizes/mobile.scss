@@ -1,0 +1,237 @@
+@import "../variables/variables.scss";
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3), (max-device-width : 667px), (max-width: 767px) {
+
+
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height:  1.5em;
+    }
+
+    p { 
+        line-height: 1.5em;
+    }
+
+    .app-container {
+        height: 100%;
+        background: #070724;
+        
+
+        .app-menu-top {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            flex: 1;
+            border-bottom: 1px solid rgba(151, 151, 151, .3);
+            padding: 1.5em 1em;
+            background: url("../assets/background-stars.svg") no-repeat left top;
+            
+            .app-menu-text-mobile {
+                flex-basis: 75%;
+            }
+
+            .app-menu-icon-mobile {
+                flex-basis: 25%;
+                display: flex;
+                flex-flow: row;
+                justify-content: flex-end;
+                align-self: center;
+                
+                .app-menu-icon-box {
+
+                    
+                    img {
+                        width: 24px;
+                        height: 17px;
+                        opacity: .5;
+                    }
+                }
+            }
+
+            .app-menu-text-tablet {
+                display: none;
+                visibility: hidden;
+            }
+
+            .app-menu-planet-selector-tablet {
+                display: none;
+                visibility: hidden;
+            }
+        }
+
+        .app-menu-planet-wrapper {
+            display: flex;
+            flex-flow: column;
+            font-family: $spartan;
+            font-weight: 600;
+            padding: 1em 0em 5em 0em;
+
+            .app-menu-planet-box {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid rgba(151, 151, 151, .3);
+                margin: 0em 1em;
+                padding: 2em 0em;
+                
+
+                .app-menu-planet-dot {
+                    flex-basis: 15%;
+                    
+                    .app-menu-dot {
+                        width: 20px;
+                        height: 20px;
+                        //background: white;
+                        border-radius: 50px;
+                    }
+                }
+
+                .app-menu-planet-text {
+                    flex: 1;
+                    
+                    p {
+                        font-size: 15px;
+                    }
+                }
+
+                .app-menu-planet-arrow {
+                    
+                }
+            }
+        }
+
+        .planet-page-info-container {
+            display:flex;
+            flex-flow: column;
+            background: url("../assets/background-stars.svg");
+            height: 100%;
+            opacity: 1;
+            width: 100%;
+            
+            .planet-page-info-select-box-mobile {
+                display: flex;
+                flex-flow: row;
+                justify-content: space-between;
+                padding: 0em 1.5em;
+                border-bottom: 1px solid rgba(151, 151, 151, .3);
+
+                .planet-page-info-select:hover { 
+                    border-bottom: 4px solid white;
+                    cursor: pointer;
+                }
+                
+                .planet-page-info-select {
+                    //opacity: .5;
+                    letter-spacing: 1.93px;
+                    padding: 1.5em 0em;
+                    
+                }
+            }
+
+            
+            .planet-page-planet-image-desktop {
+                display: none;
+                visibility: hidden;
+            }
+
+            .planet-page-planet-image {
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+                padding: 3em 0em;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 50%;
+                    height: auto;
+                    object-fit: cover;
+                    transform: scale(0.7)
+
+                    
+                }
+            }
+
+
+            .planet-page-text-info-mobile {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                margin: 0em 1.5em;
+
+                h1 {
+                    font-size: 40px;
+                    font-weight: 800;
+                    padding: 0em 0em .5em 0em;
+                }
+
+                .planet-page-planet-bio {
+
+                    p {
+                        font-size: 12px;
+                        font-family: $spartan;
+                        line-height: 22px;
+                        text-align: center;
+                        font-weight: 300;
+                    }
+                }
+
+                .planet-page-planet-wiki {
+                    display: flex;
+                    flex-flow: row;
+                    align-items: center;
+                    padding: 2em 0em 2em 0em;
+                    font-size: 12px;
+                    font-family: $spartan;
+                    font-weight: 300;
+                    opacity: .5;
+
+                    span {
+                        text-decoration: underline;
+                        font-weight: 800;
+                        padding-right: .5em;
+                    }
+                }
+            }
+
+            .planet-page-text-info-tablet {
+                display: none;
+                visibility: hidden;
+            }
+
+            .planet-page-stat-box {
+                display: flex;
+                flex-flow: column;
+
+                .planet-page-stat {
+                    display: flex;
+                    flex-flow: row wrap;
+                    align-items: center;
+                    border: 1px solid rgba(151, 151, 151, .3);
+                    padding: .5em 1.5em;
+                    margin: .5em 1.5em;
+
+                    .planet-page-stat-name {
+                        flex: 1;
+                        font-size: 16px;
+                        font-weight: 800;
+                        opacity: .5;
+                        letter-spacing: .73px;
+                    }
+
+                    .planet-page-stat-stat {
+                        flex: 1;
+                        text-align: right;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

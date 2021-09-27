@@ -1,0 +1,243 @@
+.mercury-dot {
+  background: #DEF4FC; }
+
+.venus-dot {
+  background: #F7CC7F; }
+
+.earth-dot {
+  background: #545BFE; }
+
+.mars-dot {
+  background: #FF6A45; }
+
+.jupiter-dot {
+  background: #ECAD7A; }
+
+.saturn-dot {
+  background: #FCCB6B; }
+
+.uranus-dot {
+  background: #65F0D5; }
+
+.neptune-dot {
+  background: #497EFA; }
+
+.mercury-select-bg {
+  background: #419EBB !important; }
+
+.venus-select-bg {
+  background: #EDA249 !important; }
+
+.earth-select-bg {
+  background: #6D2ED5 !important; }
+
+.mars-select-bg {
+  background: #D14C32 !important; }
+
+.jupiter-select-bg {
+  background: #D83A34 !important; }
+
+.saturn-select-bg {
+  background: #CD5120 !important; }
+
+.uranus-select-bg {
+  background: #1EC1A2 !important; }
+
+.neptune-select-bg {
+  background: #2D68F0 !important; }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3), (max-device-width: 667px), (max-width: 767px) {
+  .mercury-select-bg {
+    background: none !important;
+    border-bottom: 4px solid #419EBB !important; }
+  .venus-select-bg {
+    background: none !important;
+    border-bottom: 4px solid #EDA249 !important; }
+  .earth-select-bg {
+    background: none !important;
+    border-bottom: 4px solid #6D2ED5 !important; }
+  .mars-select-bg {
+    background: none !important;
+    border-bottom: 4px solid #D14C32 !important; }
+  .jupiter-select-bg {
+    background: none !important;
+    border-bottom: 4px solid #D83A34 !important; }
+  .saturn-select-bg {
+    background: none !important;
+    border-bottom: 4px solid #CD5120 !important; }
+  .uranus-select-bg {
+    background: none !important;
+    border-bottom: 4px solid #1EC1A2 !important; }
+  .neptune-select-bg {
+    background: none !important;
+    border-bottom: 4px solid #2D68F0 !important; } }
+
+.mercury-border-top {
+  border-top: 4px solid #419EBB !important; }
+
+.venus-border-top {
+  border-top: 4px solid #EDA249 !important; }
+
+.earth-border-top {
+  border-top: 4px solid #6D2ED5 !important; }
+
+.mars-border-top {
+  border-top: 4px solid #D14C32 !important; }
+
+.jupiter-border-top {
+  border-top: 4px solid #D83A34 !important; }
+
+.saturn-border-top {
+  border-top: 4px solid #CD5120 !important; }
+
+.uranus-border-top {
+  border-top: 4px solid #1EC1A2 !important; }
+
+.neptune-border-top {
+  border-top: 4px solid #2D68F0 !important; }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3), (max-device-width: 667px), (max-width: 767px) {
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5em; }
+  p {
+    line-height: 1.5em; }
+  .app-container {
+    height: 100%;
+    background: #070724; }
+    .app-container .app-menu-top {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      flex: 1;
+      border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+      padding: 1.5em 1em;
+      background: url("../assets/background-stars.svg") no-repeat left top; }
+      .app-container .app-menu-top .app-menu-text-mobile {
+        flex-basis: 75%; }
+      .app-container .app-menu-top .app-menu-icon-mobile {
+        flex-basis: 25%;
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-end;
+        align-self: center; }
+        .app-container .app-menu-top .app-menu-icon-mobile .app-menu-icon-box img {
+          width: 24px;
+          height: 17px;
+          opacity: .5; }
+      .app-container .app-menu-top .app-menu-text-tablet {
+        display: none;
+        visibility: hidden; }
+      .app-container .app-menu-top .app-menu-planet-selector-tablet {
+        display: none;
+        visibility: hidden; }
+    .app-container .app-menu-planet-wrapper {
+      display: flex;
+      flex-flow: column;
+      font-family: "Spartan", sans-serif;
+      font-weight: 600;
+      padding: 1em 0em 5em 0em; }
+      .app-container .app-menu-planet-wrapper .app-menu-planet-box {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+        margin: 0em 1em;
+        padding: 2em 0em; }
+        .app-container .app-menu-planet-wrapper .app-menu-planet-box .app-menu-planet-dot {
+          flex-basis: 15%; }
+          .app-container .app-menu-planet-wrapper .app-menu-planet-box .app-menu-planet-dot .app-menu-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50px; }
+        .app-container .app-menu-planet-wrapper .app-menu-planet-box .app-menu-planet-text {
+          flex: 1; }
+          .app-container .app-menu-planet-wrapper .app-menu-planet-box .app-menu-planet-text p {
+            font-size: 15px; }
+    .app-container .planet-page-info-container {
+      display: flex;
+      flex-flow: column;
+      background: url("../assets/background-stars.svg");
+      height: 100%;
+      opacity: 1;
+      width: 100%; }
+      .app-container .planet-page-info-container .planet-page-info-select-box-mobile {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        padding: 0em 1.5em;
+        border-bottom: 1px solid rgba(151, 151, 151, 0.3); }
+        .app-container .planet-page-info-container .planet-page-info-select-box-mobile .planet-page-info-select:hover {
+          border-bottom: 4px solid white;
+          cursor: pointer; }
+        .app-container .planet-page-info-container .planet-page-info-select-box-mobile .planet-page-info-select {
+          letter-spacing: 1.93px;
+          padding: 1.5em 0em; }
+      .app-container .planet-page-info-container .planet-page-planet-image-desktop {
+        display: none;
+        visibility: hidden; }
+      .app-container .planet-page-info-container .planet-page-planet-image {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        padding: 3em 0em;
+        width: 100%;
+        height: 100%; }
+        .app-container .planet-page-info-container .planet-page-planet-image img {
+          width: 50%;
+          height: auto;
+          object-fit: cover;
+          transform: scale(0.7); }
+      .app-container .planet-page-info-container .planet-page-text-info-mobile {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 0em 1.5em; }
+        .app-container .planet-page-info-container .planet-page-text-info-mobile h1 {
+          font-size: 40px;
+          font-weight: 800;
+          padding: 0em 0em .5em 0em; }
+        .app-container .planet-page-info-container .planet-page-text-info-mobile .planet-page-planet-bio p {
+          font-size: 12px;
+          font-family: "Spartan", sans-serif;
+          line-height: 22px;
+          text-align: center;
+          font-weight: 300; }
+        .app-container .planet-page-info-container .planet-page-text-info-mobile .planet-page-planet-wiki {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          padding: 2em 0em 2em 0em;
+          font-size: 12px;
+          font-family: "Spartan", sans-serif;
+          font-weight: 300;
+          opacity: .5; }
+          .app-container .planet-page-info-container .planet-page-text-info-mobile .planet-page-planet-wiki span {
+            text-decoration: underline;
+            font-weight: 800;
+            padding-right: .5em; }
+      .app-container .planet-page-info-container .planet-page-text-info-tablet {
+        display: none;
+        visibility: hidden; }
+      .app-container .planet-page-info-container .planet-page-stat-box {
+        display: flex;
+        flex-flow: column; }
+        .app-container .planet-page-info-container .planet-page-stat-box .planet-page-stat {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          border: 1px solid rgba(151, 151, 151, 0.3);
+          padding: .5em 1.5em;
+          margin: .5em 1.5em; }
+          .app-container .planet-page-info-container .planet-page-stat-box .planet-page-stat .planet-page-stat-name {
+            flex: 1;
+            font-size: 16px;
+            font-weight: 800;
+            opacity: .5;
+            letter-spacing: .73px; }
+          .app-container .planet-page-info-container .planet-page-stat-box .planet-page-stat .planet-page-stat-stat {
+            flex: 1;
+            text-align: right; } }

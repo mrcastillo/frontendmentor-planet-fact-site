@@ -1,0 +1,283 @@
+@import "../variables/variables.scss";
+
+@media only screen 
+and (min-device-width: 768px) and (min-width : 768px) and (max-width: 921px) {
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height:  1.5em;
+    }
+
+    p { 
+        line-height: 1.5em;
+    }
+
+    .app-container {
+        height: 100%;
+        background: #070724;
+
+        .app-menu-top {
+            display: flex;
+            flex-flow: column;
+            border-bottom: 1px solid rgba(151, 151, 151, .3);
+            padding: 1.5em 1em 1em 1em;
+            background: url("../assets/background-stars.svg") no-repeat left top;
+
+            .app-menu-text-mobile {
+                display: none;
+                visibility: hidden;
+            }
+
+            .app-menu-icon-mobile {
+                display: none;
+                visibility: hidden;
+            }
+            
+            .app-menu-text-tablet {
+                width: 100%;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    font-size: 28px;
+                }
+            }
+
+            .app-menu-planet-selector-tablet {
+                width: 100%;
+                display: flex;
+                flex-flow: row;
+                justify-content: space-evenly;
+                font-size: 11px;
+                opacity: .8;
+                letter-spacing: 1px;
+                font-family: $spartan;
+                padding-top: 2em;
+
+                .app-menu-planet-select {
+                    display: flex;
+                    flex-flow: row;
+                    align-items: flex-end;
+                    padding-top: 2em;
+                }
+            }
+        }
+
+        .app-menu-planet-wrapper {
+            display: flex;
+            flex-flow: column;
+            font-family: $spartan;
+            font-weight: 600;
+            padding: 1em 0em 5em 0em;
+            margin: 0em 2em;
+
+            .app-menu-planet-box {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid rgba(151, 151, 151, .3);
+                margin: 0em 1em;
+                padding: 2em 0em;
+                
+
+                .app-menu-planet-dot {
+                    flex-basis: 15%;
+                    
+                    .app-menu-dot {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50px;
+                    }
+                }
+
+                .app-menu-planet-text {
+                    flex: 1;
+                    
+                    p {
+                        font-size: 15px;
+                    }
+                }
+
+                .app-menu-planet-arrow {
+                    
+                }
+            }
+        }
+
+        .planet-page-info-container {
+            display:flex;
+            flex-flow: column;
+            background: url("../assets/background-stars.svg");
+            height: 100%;
+            
+            .planet-page-info-select-box-mobile {
+                display: none;
+                visibility: hidden;
+            }
+
+            .planet-page-planet-image-desktop {
+                display: none;
+                visibility: hidden;
+            }
+
+            .planet-page-planet-image {
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+                padding: 8em 0em;
+
+                img {
+                    width: 30%;
+                    height: auto;
+                    object-fit: cover;
+                }
+            }
+
+
+            .planet-page-text-info-mobile {
+                display: none;
+                visibility: hidden;
+            }
+
+            .planet-page-text-info-tablet {
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+                margin: 0em 2em;
+                
+                .planet-page-text-info {
+                    display: flex;
+                    flex-flow: column;
+                    flex: 1;
+                    
+                    .planet-page-planet-name {
+                        font-family: $antonio;
+                    }
+
+                    h1 {
+                        font-size: 48px;
+                        font-weight: 800;
+                        padding: 0em 0em .5em 0em;
+                    }
+
+                    .planet-page-planet-bio {
+                        margin-right: 1em;
+
+                        p {
+                            font-size: 11px;
+                            font-family: $spartan;
+                            line-height: 22px;
+                            text-align: left;
+                            font-weight: 300;
+                        }
+                    }
+
+                    .planet-page-planet-wiki {
+                        display: flex;
+                        flex-flow: row;
+                        align-items: center;
+                        padding: 2em 0em 2em 0em;
+                        font-size: 12px;
+                        font-family: $spartan;
+                        font-weight: 300;
+                        opacity: .5;
+    
+                        span {
+                            text-decoration: underline;
+                            font-weight: 800;
+                            padding-right: .5em;
+                        }
+                    }
+                }
+
+                .planet-page-info-select-box-tablet {
+                    display: flex;
+                    flex-flow: column;
+                    flex: 1;
+
+                    .selected {
+                        background: #6D2ED5!important;
+                    }
+
+                    .planet-page-info-select:hover { 
+                        background: #1d1d1d;
+                        cursor: pointer;
+                    }
+
+                    .planet-page-info-select {
+                        display: flex;
+                        flex-flow: row;
+                        align-items: center;
+                        font-size: 9px;
+                        border: 1px solid rgba(255, 255, 255, .3);
+                        margin: 1em 0% 1em 10%;
+                        //padding: .5em .5em;
+                        font-family: $spartan;
+                        letter-spacing: 1.93px;
+                        height: 40px;
+                        
+                        
+
+                        span { 
+                            opacity: .5;
+                            flex-basis: 20%;
+                            text-align: center;
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            flex-flow: row;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        p {
+                            flex-basis: 80%;
+                            font-weight: 600;
+                            height: 100%;
+                            display: flex;
+                            flex-flow: row;
+                            align-items: center;
+                        }
+                        
+                    }
+                }
+            }
+
+            .planet-page-stat-box {
+                display: flex;
+                flex-flow: row;
+                justify-content: space-between;
+                margin: 1em 2em 0em 2em;
+                gap: 10px;
+
+                .planet-page-stat {
+                    display: flex;
+                    flex-flow: column wrap;
+                    border: 1px solid rgba(151, 151, 151, .3);
+                    padding: 1em;
+                    flex-basis: 25%;
+                    
+
+                    .planet-page-stat-name {
+                        flex: 1;
+                        font-size: 16px;
+                        font-weight: 800;
+                        opacity: .5;
+                        letter-spacing: .73px;
+                    }
+
+                    .planet-page-stat-stat {
+                        flex: 1;
+                        text-align: left;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

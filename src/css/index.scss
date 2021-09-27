@@ -1,0 +1,70 @@
+@import "./reset/reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "./variables/variables.scss";
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body, #root {
+    height: 100%;
+    //overflow-x: hidden;
+    font-family: $antonio;
+    color: white;
+    background: #070724;
+}
+
+
+@import "./sizes/mobile.scss";
+@import "./sizes/tablet.scss";
+@import "./sizes/desktop.scss";
+
+@media only screen 
+and (min-device-width: 1200px) and (min-width : 1200px) {
+
+    .app-container {
+
+        .planet-page-info-container {
+            padding: 5em 10%;
+            margin: 0em;
+
+        }
+
+        .app-menu-planet-wrapper {
+            margin: 0em 10%;
+        }
+    }
+}
+
+@media only screen 
+and (min-device-width: 1400px) and (min-width : 1400px) {
+
+    .app-container {
+
+        .planet-page-info-container {
+            padding: 5em 15%;
+            margin: 0em;
+        }
+
+        .app-menu-planet-wrapper {
+            margin: 0em 15%;
+        }
+    }
+}
+
+@media only screen 
+and (min-device-width: 1600px) and (min-width : 1600px) {
+
+    .app-container {
+
+        .planet-page-info-container {
+            padding: 5em 20%;
+            margin: 0em;
+        }
+
+        .app-menu-planet-wrapper {
+            margin: 0em 20%;
+        }
+    }
+}
