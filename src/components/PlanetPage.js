@@ -14,12 +14,19 @@ function PlanetPage(props) {
     //Init variable that will store the current planet information
     var currentPlanet = {};
     
+    var planetList = [];
     //Function that will select the planet based on the currentPlanetName and return the JSON data for us in currentPlanet
     _.forEach(PlanetData, (planet) => {
+        planetList.push(planet.name.toLowerCase());
         if(planet.name.toLowerCase() === currentPlanetName){
             currentPlanet = planet;
         }
     });
+    _.forEach(planetList, (planet) => { 
+        console.log(planet)
+    });
+    
+    
     
     //State variable for our Planet <3
     const [ planet, setPlanet ] = useState(currentPlanet);
