@@ -5,7 +5,7 @@ import PlanetData from "../assets/PlanetData";
 
 function PlanetPage(props) {
     //Get the current URL, this lets us know which planet is selected.
-    const url = props.history.location.pathname;
+    var url = props.history.location.pathname;
     
     //Get the current planet name. We can get this from the params in props.
     const currentPlanetName = props.match.params.planet;
@@ -18,7 +18,11 @@ function PlanetPage(props) {
             currentPlanet = planet;
         };
     });
-    if(!currentPlanet){ currentPlanet = PlanetData[0]}
+
+    if(!currentPlanet){ 
+        currentPlanet = PlanetData[0]; 
+        url = "/mercury"
+    }
 
     //State variable for our Planet <3
     const [ planet, setPlanet ] = useState(currentPlanet);
@@ -83,11 +87,11 @@ function PlanetPage(props) {
 
             {/* Start of the planet info stuff, this is below menu*/}
             <div className={"planet-page-planet-image"}>
-                <img src={planet.images[planetSection]} alt={"planet image"} />
+                <img src={planet.images[planetSection]} alt={"planet"} />
             </div>
 
             <div className={"planet-page-planet-image-desktop"}>
-                <img src={planet.images[planetSection]} alt={"planet image"} />
+                <img src={planet.images[planetSection]} alt={"planet"} />
             </div>
 
             <div className={"planet-page-text-info-mobile"}>

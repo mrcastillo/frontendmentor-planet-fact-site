@@ -4,14 +4,6 @@ import PlanetIndex from "./components/PlanetIndex.js";
 import PlanetPage from "./components/PlanetPage.js";
 import Menu from "./components/Menu";
 
-
-const NoMatch = () => {
-  return(
-    <div className={"no-planet-404"}>
-      <h1>This planet is out of the solar system!</h1>
-    </div>
-  )
-};
 function App() {
   return (
     <Router>

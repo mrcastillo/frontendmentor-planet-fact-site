@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useEffect } from "react"
 import { Link, useLocation } from "react-router-dom";
 import hamburger from "../../src/assets/icon-hamburger.svg";
 import _ from "lodash";
@@ -7,31 +7,6 @@ export default function Menu(props) {
     const url = useLocation();
     
     const planetMenuElements = document.getElementsByClassName("app-menu-planet-select");
-
-    const selectPlanet = (event) => {
-        const target = event.currentTarget;
-        
-        console.log(target, url)
-        /*
-        switch(url.pathname.substring(1)) {
-            case "mercury" :
-
-            case "venus" :
-            case "earth" :
-            case "mars" :
-            case "jupiter" :
-            case "saturn" :
-            case "uranus" :
-            case "neptune" :
-        }
-        */
-    }
-
-    const resetContent = () => {
-        _.forEach(planetMenuElements, (elements) => {
-            elements.className = "app-menu-planet-select";
-        });
-    }
 
     useEffect(() => {
         console.log(url.pathname.substring(1));
@@ -86,28 +61,28 @@ export default function Menu(props) {
                     <h3>THE PLANETS</h3>
                 </div>
                 <div className={"app-menu-planet-selector-tablet"}>
-                    <Link to={"/mercury"} onClick={selectPlanet}  id={"mercury"} className={`app-menu-planet-select`}>
+                    <Link to={"/mercury"} id={"mercury"} className={`app-menu-planet-select`}>
                         MERCURY
                     </Link>
-                    <Link to={"/venus"} onClick={selectPlanet}  id={"venus"} className={`app-menu-planet-select`}>
+                    <Link to={"/venus"} id={"venus"} className={`app-menu-planet-select`}>
                         VENUS
                     </Link>
-                    <Link to={"/earth"} onClick={selectPlanet}  id={"earth"} className={`app-menu-planet-select`}>
+                    <Link to={"/earth"} id={"earth"} className={`app-menu-planet-select`}>
                         EARTH
                     </Link>
-                    <Link to={"/mars"} onClick={selectPlanet}  id={"mars"} className={`app-menu-planet-select`}>
+                    <Link to={"/mars"} id={"mars"} className={`app-menu-planet-select`}>
                         MARS
                     </Link>
-                    <Link to={"/jupiter"} onClick={selectPlanet}  id={"jupiter"} className={`app-menu-planet-select`}>
+                    <Link to={"/jupiter"} id={"jupiter"} className={`app-menu-planet-select`}>
                         JUPITER
                     </Link>
-                    <Link to={"/saturn"} onClick={selectPlanet}  id={"saturn"} className={`app-menu-planet-select`}>
+                    <Link to={"/saturn"} id={"saturn"} className={`app-menu-planet-select`}>
                         SATURN
                     </Link>
-                    <Link to={"/uranus"} onClick={selectPlanet}  id={"uranus"} className={`app-menu-planet-select`}>
+                    <Link to={"/uranus"} id={"uranus"} className={`app-menu-planet-select`}>
                         URANUS
                     </Link>
-                    <Link to={"/neptune"} onClick={selectPlanet} id={"neptune"} className={`app-menu-planet-select`}>
+                    <Link to={"/neptune"}id={"neptune"} className={`app-menu-planet-select`}>
                         NEPTUNE
                     </Link>
                 </div>
