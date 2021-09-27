@@ -1,33 +1,25 @@
 import React, { useState, useEffect } from "react"
 import _ from "lodash";
 import source from "../assets/icon-source.svg";
-
 import PlanetData from "../assets/PlanetData";
 
 function PlanetPage(props) {
     //Get the current URL, this lets us know which planet is selected.
     const url = props.history.location.pathname;
-
     
     //Get the current planet name. We can get this from the params in props.
     const currentPlanetName = props.match.params.planet;
     //Init variable that will store the current planet information
-    var currentPlanet = {};
+    var currentPlanet = null;
     
-    var planetList = [];
     //Function that will select the planet based on the currentPlanetName and return the JSON data for us in currentPlanet
     _.forEach(PlanetData, (planet) => {
-        planetList.push(planet.name.toLowerCase());
         if(planet.name.toLowerCase() === currentPlanetName){
             currentPlanet = planet;
-        }
+        };
     });
-    _.forEach(planetList, (planet) => { 
-        console.log(planet)
-    });
-    
-    
-    
+    if(!currentPlanet){ currentPlanet = PlanetData[0]}
+
     //State variable for our Planet <3
     const [ planet, setPlanet ] = useState(currentPlanet);
     const [ planetSection, setPlanetSection ] = useState("overview");
@@ -72,18 +64,15 @@ function PlanetPage(props) {
 
     //When the URL changes, set the planet!
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
         
         setPlanet({
             ...currentPlanet
         });
 
-        resetContent()
+        resetContent();
     }, [url]);
-    
-    /*
-        Click the button, checks what planet section we are in, 
-    */
+
     return (
         <div className={"planet-page-info-container"}>
             <div className={"planet-page-info-select-box-mobile"}>
@@ -92,8 +81,6 @@ function PlanetPage(props) {
                 <div onClick={switchInfo} id={"surface"} className={"planet-page-info-select"}>SURFACE</div>
             </div>
 
-            
-    
             {/* Start of the planet info stuff, this is below menu*/}
             <div className={"planet-page-planet-image"}>
                 <img src={planet.images[planetSection]} alt={"planet image"} />
@@ -105,7 +92,7 @@ function PlanetPage(props) {
 
             <div className={"planet-page-text-info-mobile"}>
                 <div className={"planet-page-planet-name"}>
-                    <h1>{planet.name}</h1>
+                    <h1>{planet.name ? planet.name: "Planet"}</h1>
                 </div>
                 <div className={"planet-page-planet-bio"}>
                     <p>{planet[planetSection].content}</p>
@@ -184,7 +171,7 @@ function PlanetPage(props) {
 
                 <div className={"planet-page-stat"}>
                     <div className={"planet-page-stat-name"}>
-                        <p>AVERGE TEMP</p>
+                        <p>AVERAGE TEMP</p>
                     </div>
                     <div className={"planet-page-stat-stat"}>
                         <h3>{planet.temperature}</h3>
@@ -192,7 +179,6 @@ function PlanetPage(props) {
                 </div>
             </div>
         </div>
-
     )
 }
 
