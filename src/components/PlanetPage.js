@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { Redirect } from "react-router-dom";
 import _ from "lodash";
 import source from "../assets/icon-source.svg";
 import PlanetData from "../assets/PlanetData";
@@ -9,6 +10,7 @@ function PlanetPage(props) {
     
     //Get the current planet name. We can get this from the params in props.
     const currentPlanetName = props.match.params.planet;
+
     //Init variable that will store the current planet information
     var currentPlanet = null;
     
@@ -16,12 +18,13 @@ function PlanetPage(props) {
     _.forEach(PlanetData, (planet) => {
         if(planet.name.toLowerCase() === currentPlanetName){
             currentPlanet = planet;
-        };
+        }
     });
 
     if(!currentPlanet){ 
-        currentPlanet = PlanetData[0]; 
-        url = "/mercury"
+        currentPlanet = PlanetData[2];
+        //url = "/mercury"
+        
     }
 
     //State variable for our Planet <3
@@ -34,8 +37,8 @@ function PlanetPage(props) {
             element.className = "planet-page-info-select";
         });
 
-        selectorArray[0].classList.add(`${currentPlanetName}-select-bg`);
-        selectorArray[3].classList.add(`${currentPlanetName}-select-bg`);
+        selectorArray[0].classList.add(`${currentPlanet.name.toLowerCase()}-select-bg`);
+        selectorArray[3].classList.add(`${currentPlanet.name.toLowerCase()}-select-bg`);
         setPlanetSection("overview");
     };
 
@@ -51,16 +54,16 @@ function PlanetPage(props) {
 
         switch(targetId) {
             case "overview":
-                target.classList.add(`${currentPlanetName}-select-bg`);
+                target.classList.add(`${currentPlanet.name.toLowerCase()}-select-bg`);
                 setPlanetSection("overview");
                 return;
             case "structure":
-                target.classList.add(`${currentPlanetName}-select-bg`);
+                target.classList.add(`${currentPlanet.name.toLowerCase()}-select-bg`);
                 setPlanetSection("structure");
                 return;
 
             case "surface":
-                target.classList.add(`${currentPlanetName}-select-bg`);
+                target.classList.add(`${currentPlanet.name.toLowerCase()}-select-bg`);
                 setPlanetSection("geology");
                 return;
         }

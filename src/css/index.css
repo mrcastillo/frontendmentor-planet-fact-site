@@ -94,6 +94,30 @@ a {
 .neptune-select-bg {
   background: #2D68F0 !important; }
 
+.mercury-border-top {
+  border-top: 4px solid #419EBB !important; }
+
+.venus-border-top {
+  border-top: 4px solid #EDA249 !important; }
+
+.earth-border-top {
+  border-top: 4px solid #6D2ED5 !important; }
+
+.mars-border-top {
+  border-top: 4px solid #D14C32 !important; }
+
+.jupiter-border-top {
+  border-top: 4px solid #D83A34 !important; }
+
+.saturn-border-top {
+  border-top: 4px solid #CD5120 !important; }
+
+.uranus-border-top {
+  border-top: 4px solid #1EC1A2 !important; }
+
+.neptune-border-top {
+  border-top: 4px solid #2D68F0 !important; }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3), (max-device-width: 667px), (max-width: 767px) {
   .mercury-select-bg {
     background: none !important;
@@ -119,30 +143,6 @@ a {
   .neptune-select-bg {
     background: none !important;
     border-bottom: 4px solid #2D68F0 !important; } }
-
-.mercury-border-top {
-  border-top: 4px solid #419EBB !important; }
-
-.venus-border-top {
-  border-top: 4px solid #EDA249 !important; }
-
-.earth-border-top {
-  border-top: 4px solid #6D2ED5 !important; }
-
-.mars-border-top {
-  border-top: 4px solid #D14C32 !important; }
-
-.jupiter-border-top {
-  border-top: 4px solid #D83A34 !important; }
-
-.saturn-border-top {
-  border-top: 4px solid #CD5120 !important; }
-
-.uranus-border-top {
-  border-top: 4px solid #1EC1A2 !important; }
-
-.neptune-border-top {
-  border-top: 4px solid #2D68F0 !important; }
 
 html {
   height: 100%;
@@ -202,6 +202,30 @@ body, #root {
 .neptune-select-bg {
   background: #2D68F0 !important; }
 
+.mercury-border-top {
+  border-top: 4px solid #419EBB !important; }
+
+.venus-border-top {
+  border-top: 4px solid #EDA249 !important; }
+
+.earth-border-top {
+  border-top: 4px solid #6D2ED5 !important; }
+
+.mars-border-top {
+  border-top: 4px solid #D14C32 !important; }
+
+.jupiter-border-top {
+  border-top: 4px solid #D83A34 !important; }
+
+.saturn-border-top {
+  border-top: 4px solid #CD5120 !important; }
+
+.uranus-border-top {
+  border-top: 4px solid #1EC1A2 !important; }
+
+.neptune-border-top {
+  border-top: 4px solid #2D68F0 !important; }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3), (max-device-width: 667px), (max-width: 767px) {
   .mercury-select-bg {
     background: none !important;
@@ -227,30 +251,6 @@ body, #root {
   .neptune-select-bg {
     background: none !important;
     border-bottom: 4px solid #2D68F0 !important; } }
-
-.mercury-border-top {
-  border-top: 4px solid #419EBB !important; }
-
-.venus-border-top {
-  border-top: 4px solid #EDA249 !important; }
-
-.earth-border-top {
-  border-top: 4px solid #6D2ED5 !important; }
-
-.mars-border-top {
-  border-top: 4px solid #D14C32 !important; }
-
-.jupiter-border-top {
-  border-top: 4px solid #D83A34 !important; }
-
-.saturn-border-top {
-  border-top: 4px solid #CD5120 !important; }
-
-.uranus-border-top {
-  border-top: 4px solid #1EC1A2 !important; }
-
-.neptune-border-top {
-  border-top: 4px solid #2D68F0 !important; }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3), (max-device-width: 667px), (max-width: 767px) {
   h3 {
@@ -446,6 +446,30 @@ body, #root {
 .neptune-select-bg {
   background: #2D68F0 !important; }
 
+.mercury-border-top {
+  border-top: 4px solid #419EBB !important; }
+
+.venus-border-top {
+  border-top: 4px solid #EDA249 !important; }
+
+.earth-border-top {
+  border-top: 4px solid #6D2ED5 !important; }
+
+.mars-border-top {
+  border-top: 4px solid #D14C32 !important; }
+
+.jupiter-border-top {
+  border-top: 4px solid #D83A34 !important; }
+
+.saturn-border-top {
+  border-top: 4px solid #CD5120 !important; }
+
+.uranus-border-top {
+  border-top: 4px solid #1EC1A2 !important; }
+
+.neptune-border-top {
+  border-top: 4px solid #2D68F0 !important; }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3), (max-device-width: 667px), (max-width: 767px) {
   .mercury-select-bg {
     background: none !important;
@@ -471,30 +495,6 @@ body, #root {
   .neptune-select-bg {
     background: none !important;
     border-bottom: 4px solid #2D68F0 !important; } }
-
-.mercury-border-top {
-  border-top: 4px solid #419EBB !important; }
-
-.venus-border-top {
-  border-top: 4px solid #EDA249 !important; }
-
-.earth-border-top {
-  border-top: 4px solid #6D2ED5 !important; }
-
-.mars-border-top {
-  border-top: 4px solid #D14C32 !important; }
-
-.jupiter-border-top {
-  border-top: 4px solid #D83A34 !important; }
-
-.saturn-border-top {
-  border-top: 4px solid #CD5120 !important; }
-
-.uranus-border-top {
-  border-top: 4px solid #1EC1A2 !important; }
-
-.neptune-border-top {
-  border-top: 4px solid #2D68F0 !important; }
 
 @media only screen and (min-device-width: 768px) and (min-width: 768px) and (max-width: 921px) {
   h3 {
@@ -733,6 +733,30 @@ body, #root {
 .neptune-select-bg {
   background: #2D68F0 !important; }
 
+.mercury-border-top {
+  border-top: 4px solid #419EBB !important; }
+
+.venus-border-top {
+  border-top: 4px solid #EDA249 !important; }
+
+.earth-border-top {
+  border-top: 4px solid #6D2ED5 !important; }
+
+.mars-border-top {
+  border-top: 4px solid #D14C32 !important; }
+
+.jupiter-border-top {
+  border-top: 4px solid #D83A34 !important; }
+
+.saturn-border-top {
+  border-top: 4px solid #CD5120 !important; }
+
+.uranus-border-top {
+  border-top: 4px solid #1EC1A2 !important; }
+
+.neptune-border-top {
+  border-top: 4px solid #2D68F0 !important; }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3), (max-device-width: 667px), (max-width: 767px) {
   .mercury-select-bg {
     background: none !important;
@@ -758,30 +782,6 @@ body, #root {
   .neptune-select-bg {
     background: none !important;
     border-bottom: 4px solid #2D68F0 !important; } }
-
-.mercury-border-top {
-  border-top: 4px solid #419EBB !important; }
-
-.venus-border-top {
-  border-top: 4px solid #EDA249 !important; }
-
-.earth-border-top {
-  border-top: 4px solid #6D2ED5 !important; }
-
-.mars-border-top {
-  border-top: 4px solid #D14C32 !important; }
-
-.jupiter-border-top {
-  border-top: 4px solid #D83A34 !important; }
-
-.saturn-border-top {
-  border-top: 4px solid #CD5120 !important; }
-
-.uranus-border-top {
-  border-top: 4px solid #1EC1A2 !important; }
-
-.neptune-border-top {
-  border-top: 4px solid #2D68F0 !important; }
 
 @media only screen and (min-device-width: 922px) and (min-width: 922px) {
   h3 {
@@ -884,6 +884,7 @@ body, #root {
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+        min-height: 500px;
         flex-basis: 50%; }
         .app-container .planet-page-info-container .planet-page-text-info-tablet .planet-page-text-info {
           display: flex;
