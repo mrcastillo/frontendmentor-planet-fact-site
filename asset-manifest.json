@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/frontendmentor-planet-fact-site/static/css/main.0e7849c4.chunk.css",
-    "main.js": "/frontendmentor-planet-fact-site/static/js/main.0e31ceec.chunk.js",
-    "main.js.map": "/frontendmentor-planet-fact-site/static/js/main.0e31ceec.chunk.js.map",
+    "main.css": "/frontendmentor-planet-fact-site/static/css/main.8c6127fe.chunk.css",
+    "main.js": "/frontendmentor-planet-fact-site/static/js/main.103d0dce.chunk.js",
+    "main.js.map": "/frontendmentor-planet-fact-site/static/js/main.103d0dce.chunk.js.map",
     "runtime-main.js": "/frontendmentor-planet-fact-site/static/js/runtime-main.6207f42c.js",
     "runtime-main.js.map": "/frontendmentor-planet-fact-site/static/js/runtime-main.6207f42c.js.map",
-    "static/js/2.686e20aa.chunk.js": "/frontendmentor-planet-fact-site/static/js/2.686e20aa.chunk.js",
-    "static/js/2.686e20aa.chunk.js.map": "/frontendmentor-planet-fact-site/static/js/2.686e20aa.chunk.js.map",
+    "static/js/2.789f0a4a.chunk.js": "/frontendmentor-planet-fact-site/static/js/2.789f0a4a.chunk.js",
+    "static/js/2.789f0a4a.chunk.js.map": "/frontendmentor-planet-fact-site/static/js/2.789f0a4a.chunk.js.map",
     "static/js/3.f6fe1675.chunk.js": "/frontendmentor-planet-fact-site/static/js/3.f6fe1675.chunk.js",
     "static/js/3.f6fe1675.chunk.js.map": "/frontendmentor-planet-fact-site/static/js/3.f6fe1675.chunk.js.map",
     "index.html": "/frontendmentor-planet-fact-site/index.html",
-    "static/css/main.0e7849c4.chunk.css.map": "/frontendmentor-planet-fact-site/static/css/main.0e7849c4.chunk.css.map",
-    "static/js/2.686e20aa.chunk.js.LICENSE.txt": "/frontendmentor-planet-fact-site/static/js/2.686e20aa.chunk.js.LICENSE.txt",
+    "static/css/main.8c6127fe.chunk.css.map": "/frontendmentor-planet-fact-site/static/css/main.8c6127fe.chunk.css.map",
+    "static/js/2.789f0a4a.chunk.js.LICENSE.txt": "/frontendmentor-planet-fact-site/static/js/2.789f0a4a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/frontendmentor-planet-fact-site/static/media/background-stars.f6233a6a.svg",
     "static/media/geology-earth.61d2b324.png": "/frontendmentor-planet-fact-site/static/media/geology-earth.61d2b324.png",
     "static/media/geology-jupiter.93e4e021.png": "/frontendmentor-planet-fact-site/static/media/geology-jupiter.93e4e021.png",
@@ -43,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6207f42c.js",
-    "static/js/2.686e20aa.chunk.js",
-    "static/css/main.0e7849c4.chunk.css",
-    "static/js/main.0e31ceec.chunk.js"
+    "static/js/2.789f0a4a.chunk.js",
+    "static/css/main.8c6127fe.chunk.css",
+    "static/js/main.103d0dce.chunk.js"
   ]
 }
